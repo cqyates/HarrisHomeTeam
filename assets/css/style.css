@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 :root {
 --kwRed:#B40101;
 --darkRed:#990000;
 --khaki:#EFEFDE;
+--khakiOpac:#efefde70;
 --taupe:#A19F91;
 --lightTaupe:#DFDFD9;
 --gray1:#333333;
@@ -9,4 +12,44 @@
 --gray3:#999999;
 --gray4:#CCCCCC;
 --black:#000000;
+--Lato: "'Lato', sans-serif"
+}
+body {
+  background-color: var(--khakiOpac)
+}
+
+.leto-head {
+  font-family: var(--Lato);
+  opacity: 0;
+  color: var(--black)
+}
+.mockup {
+  height: 200px;
+  width: 200px;
+  margin: 25px;
+}
+#main {
+  width: 60vw;
+  /* height: 60vh; */
+  margin: 20vh auto;
+  flex-direction: column;
+}
+.intro {
+  font-family: var(--Lato);
+  color: var(--khakiOpac);
+  background-color: var(--gray1);
+  text-align: center
+}
+.row {
+  align-self: center;
+}
+.card {
+  position: relative;
+  box-shadow: 1px 1px 4px 1px var(--gray3)
+}
+.card-title {
+  position: absolute;
+  top: 50%;
+  align-self: center;
+  text-decoration: none;
 }
