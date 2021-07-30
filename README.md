@@ -8,7 +8,9 @@
 > * which directs users to either click on Alison's new website Harris Home Team
 > * or provides contact information for MaryAnn Sinclair
 
+
 # Acceptance Criteria
 * Link Path is Correct
 * Alison Approves of Styling
 * Router Website has Alison Approved Name.
+* Website Changeover Happens on August 1
